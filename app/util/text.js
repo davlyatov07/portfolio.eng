@@ -28,8 +28,8 @@ export const text = {
 		ru: 'Готовы реализовать отличные проекты с замечательными людьми.',
 	},
 	vv: {
-		en: 'Im studying at courses Introduction to Frontend in Re-Skilss',
-		ru: 'Я учусь на курсах «Введение во фронтенд» в Re-Skilss.',
+		en: 'Im studying at courses Introduction to Frontend in Ilmhona',
+		ru: 'Я учусь на курсах «Введение во фронтенд» в Ilmhona.',
 	},
 	bb: {
 		en: 'Hi, Im Denis – Frontend developer from Dushanbe. Im interested in design and everything connected with it.',

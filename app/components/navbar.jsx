@@ -110,7 +110,7 @@ export default function Navbar({ openModal, closeMenu }) {
 									</div>
 									<button
 										onClick={handleChange}
-										className='text-[34px] flex md:hidden justify-end z-50 absolute bottom-16 pb-12 right-0 rotate-90 '
+										className='text-[34px] flex md:hidden justify-end z-50 absolute bottom-20  -right-14 rotate-90 '
 									>
 										<span className='divide-x-2 divide-black overflow-hidden '>
 											{languages.map(lang => {
