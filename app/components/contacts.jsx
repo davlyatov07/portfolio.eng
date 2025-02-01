@@ -36,7 +36,10 @@ export default function ContactSection() {
 	}
 
 	return (
-		<section id='contact' className='w-full text-center py-20 px-4'>
+		<section
+			id='contact'
+			className='w-full bg-white text-black text-center py-20 px-4'
+		>
 			<h1 className='text-4xl font-bold md:pt-10 pb-6 '>
 				{text.contacts[language]}
 			</h1>
