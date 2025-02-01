@@ -21,7 +21,7 @@ export default function MainComponent() {
 
 	return (
 		<>
-			<div className='flex justify-center flex-col max-w-screen-xxl  text-black'>
+			<div className='flex justify-center flex-col max-w-screen-xxl '>
 				<Navbar openModal={openModal} closeMenu={closeMenu} />
 				<HomeSection />
 				<AboutSection />

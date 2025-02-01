@@ -10,7 +10,7 @@ export default function PortfolioSection() {
 	return (
 		<section
 			id='portfolio'
-			className='bg-neutral-100 w-full text-center py-8 md:py-20 px-4'
+			className='bg-neutral-100 w-full text-center  text-black py-8 md:py-20 px-4'
 		>
 			<h1 className='text-4xl font-bold py-10'>{text.po[language]}</h1>
 			<div className='flex justify-center items-center flex-col gap-12 px-10 pt-7'>

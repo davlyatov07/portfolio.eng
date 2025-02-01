@@ -11,7 +11,7 @@ export default function SkillsSection() {
 	return (
 		<section
 			id='skills'
-			className='bg-[#ffffff] w-full text-center md:py-20 px-4'
+			className='bg-[#ffffff] w-full text-center  text-black md:py-20 px-4'
 		>
 			<h1 className='text-4xl font-bold md:py-20 py-10'>{text.sk[language]}</h1>
 			<p className='text-[18px]'>{text.mm[language]}</p>
