@@ -8,7 +8,7 @@ import { useLanguage } from '../hooks/useLanguage'
 export default function HeroSection() {
 	const { language } = useLanguage()
 	return (
-		<section id='home' className='md:px-16 px-3 '>
+		<section id='home' className='md:px-16 px-3 bg-white '>
 			<div className='pt-10 mb-8 flex flex-col justify-start md:items-end md:flex-row items-start md:justify-between w-full relative '>
 				<h1 className='text-[47px] md:text-5xl font-bold'>
 					{text.name[language]}

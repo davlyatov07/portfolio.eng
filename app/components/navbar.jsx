@@ -99,7 +99,7 @@ export default function Navbar({ openModal, closeMenu }) {
 						>
 							<div className='w-full h-full bg-white  bg-opacity-80 relative p-4'>
 								<Dialog.Panel>
-									<div className='w-full h-full flex flex-col pt-10'>
+									<div className='w-full h-full flex  text-black flex-col pt-10'>
 										{links.map((link, index) => (
 											<Link key={index} href={link.url} onClick={toggleMenu}>
 												<h1 className='text-[34px] font-bold text-start pl-3 mb-8'>
@@ -118,7 +118,9 @@ export default function Navbar({ openModal, closeMenu }) {
 													<span
 														key={lang.lang}
 														className={`p-4 ${
-															lang.lang === language ? 'font-bold' : ''
+															lang.lang === language
+																? 'font-bold text-black'
+																: ''
 														}`}
 													>
 														{lang.text}
