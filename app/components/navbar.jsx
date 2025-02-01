@@ -97,7 +97,7 @@ export default function Navbar({ openModal, closeMenu }) {
 							leaveFrom='translate-x-0'
 							leaveTo='translate-x-full'
 						>
-							<div className='w-full h-full bg-white  bg-opacity-80 relative p-4'>
+							<div className='w-full h-screen bg-white  bg-opacity-80 relative p-4'>
 								<Dialog.Panel>
 									<div className='w-full h-full flex  text-black flex-col pt-10'>
 										{links.map((link, index) => (
@@ -110,7 +110,7 @@ export default function Navbar({ openModal, closeMenu }) {
 									</div>
 									<button
 										onClick={handleChange}
-										className='text-[34px] flex md:hidden justify-end z-50 absolute bottom-28	  -right-14 rotate-90 '
+										className='text-[34px] flex md:hidden justify-end z-50 absolute bottom-40	  -right-14 rotate-90 '
 									>
 										<span className='divide-x-2 divide-black overflow-hidden '>
 											{languages.map(lang => {
